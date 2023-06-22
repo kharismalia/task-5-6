@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  & header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+
+    > .logo {
+      margin-left: 16px;
+    }
+
+    > .navbar {
+      margin-right: 16px;
+    }
+  }
+
+  & .app {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    justify-content: center;
+  }
+
+  & .form {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    justify-content: center;
+  }
+
+  & .card {
+    background-color: darkgray;
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  & button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    min-width: 96px;
+    height: 32px;
+  }
+}
